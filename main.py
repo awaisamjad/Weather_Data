@@ -21,8 +21,8 @@ wind_speed = []
 wind_deg = []
 weather = []
 weather_desc = []
-dataset_length = 3
-time_interval = 5
+dataset_length = 100_000
+time_interval = 1800 # 30 minutes
 for i in range(dataset_length):
     temp.append(response['main']['temp'])
     feels_like.append(response['main']['feels_like'])
